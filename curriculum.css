@@ -3,7 +3,7 @@
     height: 495px;
     width: 445px;
     float: left;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .linea-vertical2{
@@ -22,7 +22,7 @@
 
 h3{
     text-wrap: nowrap;
-    margin: 3px;
+    margin: 2px;
 
 }
     
@@ -35,25 +35,48 @@ p{
     text-wrap: nowrap;
 }
 
+
+
 .puntos{
     width: 15px;
     height: 15px;
     background-color: black;
     border-radius: 50%;
     display: inline-block;
+    margin: 5px;
+    
+}
+.ef{
+    
+    margin-left: 120px;
 }
 
 .contenedor-puntos{
-    text-wrap: nowrap;
-    text-align: left;
+    display: flex;
+   
 }
 
-span{
-    text-align: left;
+.i{
+    margin-left: 170px;
 }
 
-
-
-
+.ei{
+    margin-left: 100px;
+}
     
+.hc{
+    margin-left: 110px;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+}
+.icn-ctn{
+    width:450px;
+    position: static;
+    margin-top: -115px;
+    margin-left: 470px;
+    background-color: #ccc;
+    display: flex;
+}
 
