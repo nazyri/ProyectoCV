@@ -1,17 +1,59 @@
-.Linea-vertical{
+.linea-vertical{
     background: #ccc;
-    height: 750px;
-    text-align: left;
-    width: 250px;
-    
+    height: 495px;
+    width: 445px;
+    float: left;
+    margin-right: 5%;
 }
 
 .linea-vertical2{
-    height: 130px;
+    height: 95px;
     width: 5px;
     background-color: gray;
+    
+}
+
+.linea-vertical3{
+    height: 90px;
+    width: 5px;
+    background-color: gray;
+    
+}
+
+h3{
+    text-wrap: nowrap;
+    margin: 3px;
+
 }
     
+li{
+    text-wrap: nowrap;
+   
+}
+
+p{
+    text-wrap: nowrap;
+}
+
+.puntos{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.contenedor-puntos{
+    text-wrap: nowrap;
+    text-align: left;
+}
+
+span{
+    text-align: left;
+}
 
 
+
+
+    
 
