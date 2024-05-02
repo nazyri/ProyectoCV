@@ -2,7 +2,6 @@
     background: #ccc;
     height: 495px;
     width: 445px;
-    float: left;
     margin-right: 2%;
 }
 
@@ -19,7 +18,11 @@
     background-color: gray;
     
 }
-
+fieldset{
+    border: 5px solid #ccc;
+   /* border: none;*/
+   background-clip: border-box 0 ;
+}
 h3{
     text-wrap: nowrap;
     margin: 2px;
@@ -53,6 +56,7 @@ p{
 
 .contenedor-puntos{
     display: flex;
+    margin-left: 20px;
    
 }
 
@@ -79,4 +83,75 @@ p{
     background-color: #ccc;
     display: flex;
 }
+
+.cuadro{
+    position: relative;
+    margin-top: -175px;
+    margin-left: 500px;
+    width: 220px;
+}
+.foto{
+    position: static;
+    top: 250px;
+    margin-top: -72px;
+    border: 20px solid rgb(75, 75, 75);
+    border-right-style:double ;
+    border-top-style:double;
+    border-bottom-style: double;
+    width: 250px;
+    
+    height: 215px;
+}
+.exp{
+    width: 300px;
+    margin-top: -515px;
+    margin-left: 485px;
+}
+
+.correo{
+    text-wrap: nowrap;
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+    display: flex;
+    margin-top: 60px;
+    position: relative;
+    top: -70px;
+    left: 220px;
+}
+.telefono{
+    text-align: center;
+    position: relative;
+    top: -350px;
+    left: 30px;
+}
+
+.ubicacion{
+    text-align: center;
+    position: relative;
+    top: -350px;
+    right: 32px;
+    
+}
+
+.est{
+    text-align: center;
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+
+.tst {
+text-wrap: nowrap;
+width: 250px;
+margin-left: 200px;}
+
+.lines{
+    background-color: #ccc;
+    width: 700px;
+    height: 235px;
+    position: static;
+    
+}
+
 
